@@ -61,12 +61,12 @@ class Train_Custom_Conv2D:
 if __name__ == "__main__":
 
 
-    dense_layers = [3,4,5]
-    conv_layers = [4,5,6]
-    layer_sizes = [256,512]
+    dense_layers = [3,4,5] #pass dense layers in a list
+    conv_layers = [4,5,6] #pass conv layers in a list
+    layer_sizes = [256,512] #pass layer size in a list
+    epochs = 10
 
-
-    c = Train_Custom_Conv2D(dense_layers=dense_layers, conv_layers=conv_layers, layer_sizes=layer_sizes)
+    c = Train_Custom_Conv2D(dense_layers=dense_layers, conv_layers=conv_layers, layer_sizes=layer_sizes, epochs=epochs)
     c.train()
 
 
