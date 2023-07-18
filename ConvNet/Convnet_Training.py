@@ -59,7 +59,14 @@ class Train_Custom_Conv2D:
 
 
 if __name__ == "__main__":
-
+    '''
+    
+    
+    
+    To view on tensorboard, start training and cd into the directory that has logs in it
+    write tensorboard --logdir logs
+    you can open localhost:6006 to view your models training live.
+    '''
 
     dense_layers = [3,4,5] #pass dense layers in a list
     conv_layers = [4,5,6] #pass conv layers in a list
