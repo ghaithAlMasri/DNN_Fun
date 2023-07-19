@@ -1,2 +1,8 @@
 X.pickle
 y.pickle
+X_train.pickle
+y_train.pickle
+X_test.pickle
+y_test.pickle
+crypto_data
+*.pickle
