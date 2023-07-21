@@ -102,7 +102,9 @@ if __name__ == '__main__':
     dense = [1,2,3]
     lstm = [1,2,3]
 
-    r = Rnn_Crypto(epochs=epochs, LSTM=lstm, dense=dense, size=size,
-                   X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test)
-    r.train()
+    print(y_train)
+
+    # r = Rnn_Crypto(epochs=epochs, LSTM=lstm, dense=dense, size=size,
+    #                X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test)
+    # r.train()
 
